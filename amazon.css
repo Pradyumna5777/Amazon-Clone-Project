@@ -1,0 +1,757 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.navbar1 {
+    background-color: #0f1111;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 5;
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 90px;
+    display: flex;
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+}
+
+.border:hover {
+    border: 1.3px solid white;
+    cursor: pointer;
+}
+
+.location p {
+    margin-left: 17px;
+    color: gray;
+    font-size: 0.8rem;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+.location a {
+    position: relative;
+    bottom: 1px;
+}
+
+.add-icon {
+    font-size: 0.9rem;
+    font-weight: bolder;
+    color: white;
+}
+
+.icon1 {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.location {
+    height: 40px;
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    height: 40px;
+}
+
+.input-search:hover {
+    border: 3px solid #ff9900;
+    border-radius: 8px;
+}
+
+.all-option:hover {
+    border: 3px solid #ff9900;
+    border-radius: 8px;
+}
+
+.search-icon:hover {
+    border: 3px solid #ff9900;
+    border-radius: 8px;
+}
+
+.search-icon {
+    color: #0f1111;
+    align-self: center;
+    background-color: #ebaa49;
+    height: 40px;
+    width: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.all-option {
+    width: 52px;
+    text-align: center;
+    color: gray;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: none;
+    cursor: pointer;
+}
+
+.input-search {
+    width: 600px;
+    padding: 7px 10px 10px 0;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    position: relative;
+    top: 3px;
+}
+
+.flag {
+    background-image: url("indian\ flag.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 25px;
+    margin-top: 8px;
+}
+
+.xyz {
+    background-color: transparent;
+    color: white;
+    height: 18px;
+    width: 35px;
+    font-size: small;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+}
+
+option {
+    background-color: white;
+    color: #0f1111;
+}
+
+.signin {
+    height: 40px;
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+}
+
+.for-signin {
+    font-size: 0.8rem;
+    color: white;
+}
+
+.account {
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    position: relative;
+    right: 4px;
+}
+
+.returns {
+    height: 40px;
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+}
+
+.for-order {
+    font-size: 0.8rem;
+    color: white;
+}
+
+.orders {
+    color: white;
+    font-weight: bolder;
+    font-size: 0.85rem;
+}
+
+.cart-logo {
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+}
+
+.pcart {
+    font-size: 0.85rem;
+    font-weight: bolder;
+}
+
+.cart {
+    font-size: xx-large;
+}
+
+.navbar1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar2 {
+    background-color: #232F3E;
+    font-size: 0.85rem;
+    color: white;
+    height: 39px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 60px;
+}
+
+.navbar-b {
+    background-color: transparent;
+    color: white;
+    border: transparent;
+    height: 37px;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    font-size: 25px;
+}
+
+.prime {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.three-lines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all {
+    font-weight: bolder;
+}
+
+.img1 {
+    background-image: url("amazon\ front\ image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 60px;
+    z-index: -1;
+}
+
+.middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(215, 213, 213);
+}
+
+.box1 {
+    background-color: white;
+    height: 385px;
+    width: 295px;
+    padding: 20px 20px 15px 20px;
+    z-index: 1;
+    margin-bottom: 17px;
+}
+
+.box1 h2 {
+    font-size: 22.2px;
+}
+
+.amazon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+span {
+    display: block;
+    overflow-wrap: break-word;
+    inline-size: 135px;
+    position: relative;
+    bottom: 5px;
+}
+
+.secure-signin {
+    background-color: white;
+    height: 120px;
+    width: 295px;
+    padding: 20px 20px 15px 20px;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#secure-signin {
+    background-color: #ffdd32;
+    height: 35px;
+    width: 350px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0.1px 0.1px 1px #595c5c;
+    ;
+}
+
+#secure-signin:hover {
+    cursor: pointer;
+    background-color: #ddc134;
+}
+
+img {
+    background-position: center;
+    background-size: cover;
+    height: 115px;
+    width: 125px;
+}
+
+.amazon-sell {
+    display: flex;
+    justify-content: center;
+}
+
+#amazon-sell {
+    height: 270px;
+    width: 270px;
+}
+
+#amazon-sell:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px rgb(180, 178, 178);
+}
+
+.amazon img:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px rgb(180, 178, 178);
+}
+
+.rectbox img:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px rgb(180, 178, 178);
+}
+
+.clothing {
+    font-size: small;
+}
+
+.footwear {
+    font-size: small;
+}
+
+.watches {
+    font-size: small;
+}
+
+.bags {
+    font-size: small;
+}
+
+.clothing:hover {
+    cursor: pointer;
+}
+
+.footwear:hover {
+    cursor: pointer;
+}
+
+.watches:hover {
+    cursor: pointer;
+}
+
+.bags:hover {
+    cursor: pointer;
+}
+
+#seemore {
+    font-size: small;
+    font-weight: 549;
+    color: #007185;
+    position: relative;
+    top: 15px;
+}
+
+#seemore:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(199, 59, 59);
+}
+
+.rectbox-main {
+    background-color: white;
+    height: 250px;
+    width: 100vw;
+    padding: 20px 15px 20px;
+}
+
+.rectbox {
+    display: flex;
+    overflow-x: scroll;
+}
+
+#rectbox {
+    display: inline;
+}
+
+.img-rectbox {
+    height: 200px;
+    width: 200px;
+    margin: 10px 10px;
+}
+
+.rectbox-main a {
+    color: #007185;
+    font-size: 15px;
+    font-weight: 545;
+    margin-left: 15px;
+}
+
+.rectbox-main a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(199, 59, 59);
+}
+
+#fsignin {
+    background-color: white;
+    height: 16vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(215, 213, 213);
+    border-radius: 4px;
+    position: relative;
+    top: 43px;
+}
+
+.fsignin {
+    position: relative;
+    top: 10px;
+}
+
+.fsignin-button {
+    height: 30px;
+    width: 225px;
+    background-color: #ffd24b;
+    border-radius: 5px;
+    border: 1.4px solid #dfa62b;
+}
+
+.fsignin p {
+    color: black;
+    font-size: 13px;
+    font-weight: 545;
+    position: relative;
+    left: 8px;
+}
+
+#end {
+    background-color: rgb(215, 213, 213);
+    height: 25px;
+}
+
+.one {
+    background-color: rgb(215, 213, 213);
+    position: relative;
+    top: 45px;
+}
+
+.new-start {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 6px;
+}
+
+.new-start p {
+    font-size: 11px;
+    display: inline;
+    position: absolute;
+    left: 48px;
+}
+
+.new-start a {
+    font-size: 11px;
+    color: #007185;
+    position: relative;
+    left: 40px;
+}
+
+.new-start a:hover {
+    cursor: pointer;
+    color: rgb(194, 65, 65);
+}
+
+.back-to-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 49px;
+    width: 100%;
+    background-color: #36465a;
+    position: relative;
+    top: 63px;
+}
+
+.back-to-top:hover {
+    cursor: pointer;
+    background-color: #425266;
+}
+
+#back-to-top {
+    color: white;
+    font-size: small;
+}
+
+.fsignin-button:hover {
+    cursor: pointer;
+}
+
+.links {
+    background-color: #232f3e;
+    color: white;
+    height: 40vh;
+    width: 100%;
+    position: relative;
+    top: 63px;
+    display: flex;
+    justify-content: center;
+}
+
+.link1 {
+    width: 67vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.link1 ul li {
+    list-style-type: none;
+}
+
+ul a {
+    display: block;
+    font-size: 14px;
+    margin-top: 11px;
+    color: #d8d8d8;
+}
+
+ul a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+hr {
+    position: relative;
+    bottom: -55px;
+    opacity: 0.1;
+}
+
+.img1:hover {
+    cursor: pointer;
+}
+
+.flogo {
+    background-color: #232f3e;
+    height: 145px;
+    width: 100%;
+    position: relative;
+    top: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flogo .fimg:hover {
+    cursor: pointer;
+}
+
+.fimg {
+    height: 55px;
+    width: 98px;
+    position: relative;
+    bottom: 30px;
+    left: 400px;
+}
+
+.footer-lang {
+    width: 100px;
+    background-color: transparent;
+    color: #d8d8d8;
+    height: 33px;
+    width: 116px;
+    position: relative;
+    left: 476px;
+    bottom: 36px;
+    border-radius: 3px;
+}
+
+.footer-lang:hover {
+    cursor: pointer;
+}
+
+.globe {
+    color: #d8d8d8;
+    height: 10px;
+    width: 20px;
+}
+
+.countries p {
+    color: #d8d8d8;
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+.count1 {
+    width: 66vw;
+    height: 11vh;
+    position: relative;
+    right: 100px;
+    top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.count1 p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#one1 {
+    position: relative;
+    bottom: 25px;
+}
+
+#two2 {
+    position: relative;
+    bottom: 25px;
+}
+
+.last-footer {
+    background-color: #131a22;
+    height: 180px;
+    position: relative;
+    top: 61px;
+    display: flex;
+    justify-content: center;
+}
+
+.last-footer0 h5 {
+    color: rgb(205, 203, 203);
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.last-footer0 {
+    background-color: transparent;
+    width: 67%;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    right: 87px;
+    top: 30px;
+}
+
+.last-footer0 p {
+    font-size: 12px;
+    color: #8d8d8d;
+}
+
+.last-footer0 p,
+h5 {
+    margin-left: 80px;
+}
+
+.last-footer0 h5:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.last-footer0 p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.last-footer5 p,
+.last-footer5 h5 {
+    position: relative;
+    left: 70px;
+}
+
+.last-footer7 p,
+.last-footer7 h5 {
+    position: relative;
+    right: 33px;
+}
+
+.last-footer8 p,
+.last-footer8 h5 {
+    position: relative;
+    right: 26px;
+}
+
+.last-footer9 p,
+.last-footer9 h5 {
+    position: relative;
+    right: 78px;
+}
+
+.footer-end {
+    background-color: #131a22;
+    height: 60px;
+    position: relative;
+    top: 61px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-end1 {
+    background-color: transparent;
+    height: 60px;
+    width: 24%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-end1 a {
+    font-size: 12px;
+    color: rgb(205, 203, 203);
+}
+
+.footer-end1 a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-end1 p {
+    font-size: 12px;
+    color: #8d8d8d;
+    position: relative;
+    bottom: 10px;
+    left: 45px;
+    color: rgb(205, 203, 203);
+}
